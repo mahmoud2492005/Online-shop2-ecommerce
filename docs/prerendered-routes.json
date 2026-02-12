@@ -1,0 +1,19 @@
+{
+  "routes": {
+    "/Online-shop2-ecommerce": {},
+    "/Online-shop2-ecommerce/FavoriteProducts": {},
+    "/Online-shop2-ecommerce/about": {},
+    "/Online-shop2-ecommerce/allorders": {},
+    "/Online-shop2-ecommerce/brands": {},
+    "/Online-shop2-ecommerce/cart": {},
+    "/Online-shop2-ecommerce/categories": {},
+    "/Online-shop2-ecommerce/contact": {},
+    "/Online-shop2-ecommerce/forgotPassword": {},
+    "/Online-shop2-ecommerce/home": {},
+    "/Online-shop2-ecommerce/landing": {},
+    "/Online-shop2-ecommerce/login": {},
+    "/Online-shop2-ecommerce/products": {},
+    "/Online-shop2-ecommerce/register": {},
+    "/Online-shop2-ecommerce/services": {}
+  }
+}
