@@ -73,6 +73,27 @@
   box-shadow: none;
   color: white;
 }
+/* يمنع التمرير بالعرض على كل الصفحة */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* يمنع horizontal scroll */
+}
+
+/* يجعل الصور والفيديوهات والـ iframe مرنة */
+img, video, iframe, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* أي section أو div محتمل يكون عريض */
+section, div, header, footer, main, article {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 
 
 
