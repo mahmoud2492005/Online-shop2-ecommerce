@@ -26,17 +26,17 @@ import { FavoriteProductsComponent } from './shared/components/favorite-products
 export const routes: Routes = [
     
     {path:'', redirectTo:'landing', pathMatch:"full"},
-    {path:'',component:AuthLayoutComponent , canActivate:[homeGuard]
+    {path:'',component:AuthLayoutComponent 
          ,children:[
-        {path:'login',component:LoginComponent    , title:'Login Page'},
-    {path:'register', component:RegisterComponent   , title:'Register Page'},
+        {path:'login',component:LoginComponent , canActivate:[homeGuard]   , title:'Login Page'},
+    {path:'register', component:RegisterComponent,canActivate:[homeGuard]   , title:'Register Page'},
     {path:'forgotPassword', component:ForgotPasswordComponent   , title:'Forgot Password Page'},
 
 
 
     ]},
     //landing 
-        {path:'', redirectTo:'landing', pathMatch:"full"},
+        // {path:'', redirectTo:'landing', pathMatch:"full"},
     {path:'',component:NavLayoutComponent  
          ,children:[
         {path:'landing', component:LandingComponent, title:'Landing Page'},
