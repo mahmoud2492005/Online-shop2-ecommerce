@@ -25,7 +25,8 @@ import { FavoriteProductsComponent } from './shared/components/favorite-products
 
 export const routes: Routes = [
     
-    {path:'', redirectTo:'landing', pathMatch:"full"},
+    // {path:'', redirectTo:'landing', pathMatch:"full"},
+    { path: '', component: LandingComponent, title: 'Landing Page' },
     {path:'',component:AuthLayoutComponent 
          ,children:[
         {path:'login',component:LoginComponent , canActivate:[homeGuard]   , title:'Login Page'},
