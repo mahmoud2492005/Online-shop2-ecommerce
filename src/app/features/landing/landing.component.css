@@ -1,0 +1,68 @@
+/* =================================
+   Hero + Landing Section Mobile Fix
+====================================*/
+
+@media (max-width: 767px) {
+
+  /* منع أي سكرول عرضي */
+  html, body {
+    overflow-x: hidden !important;
+  }
+
+  section {
+    overflow-x: hidden !important;
+  }
+
+  /* تصغير العنوان الرئيسي */
+  h1 {
+    font-size: 26px !important;
+    line-height: 1.3 !important;
+    max-width: 100% !important;
+  }
+
+  /* تصغير البراجراف */
+  h1 + p,
+  p {
+    font-size: 14px !important;
+    max-width: 100% !important;
+  }
+
+  /* زرار Download */
+  button {
+    height: 48px !important;
+    font-size: 15px !important;
+  }
+
+  /* صورة الهيرو */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* تقليل البادينج الكبير */
+  .py-24 {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+
+  .py-16 {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+
+  /* تصغير عنوان السكشن الرمادي */
+  section.bg-\[\#7A7A7A\] h2 {
+    font-size: 22px !important;
+    line-height: 1.3 !important;
+  }
+
+  section.bg-\[\#7A7A7A\] p {
+    font-size: 14px !important;
+  }
+
+  /* اصلاح أي عنصر واخد max width ثابت */
+  [class*="max-w-["] {
+    max-width: 100% !important;
+  }
+
+}

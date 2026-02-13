@@ -1,0 +1,55 @@
+/* ===== Mobile Navbar Fix ===== */
+@media (max-width: 767px) {
+
+  nav.nav-style {
+    background: #fff !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+  }
+
+  /* القائمة المنسدلة */
+  #navbar-default {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0;
+    width: 100% !important;
+    background: #ffffff !important;
+    padding: 15px 0 !important;
+    border-radius: 0 0 16px 16px !important;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08) !important;
+  }
+
+  /* ul الأساسي */
+  #navbar-default ul {
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 10px !important;
+  }
+
+  /* اللينكات */
+  #navbar-default ul li,
+  #navbar-default ul a {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  #navbar-default ul a {
+    padding: 12px 0 !important;
+    font-size: 16px !important;
+  }
+
+  /* زرار login & signup */
+  #navbar-default button {
+    width: 80% !important;
+    margin: 5px auto !important;
+  }
+
+  /* منع أي سكرول عرضي */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  section.container {
+    overflow-x: hidden !important;
+  }
+}

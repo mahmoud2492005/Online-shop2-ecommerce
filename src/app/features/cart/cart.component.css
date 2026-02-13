@@ -1,0 +1,80 @@
+/* =================================
+   Cart Page Mobile Fix
+====================================*/
+
+@media (max-width: 767px) {
+
+  /* منع overflow */
+  html, body {
+    overflow-x: hidden !important;
+  }
+
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* breadcrumb */
+  .pt-24 {
+    padding-top: 100px !important;
+  }
+
+  .pt-24.w-\[494px\],
+  .w-\[494px\] {
+    width: 100% !important;
+  }
+
+  /* عنوان Cart */
+  h1 {
+    font-size: 26px !important;
+  }
+
+  /* كارت المنتج */
+  .w-\[735px\] {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .h-40 {
+    height: auto !important;
+  }
+
+  /* خلي الكارت عمودي */
+  .w-\[735px\] > div {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 15px !important;
+    padding: 15px !important;
+  }
+
+  /* صورة المنتج */
+  .w-40 {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* الخط الفاصل */
+  .w-\[820px\] {
+    width: 100% !important;
+  }
+
+  svg {
+    max-width: 100% !important;
+  }
+
+  /* Order Summary */
+  aside {
+    margin-top: 20px !important;
+  }
+
+  /* خلي الشبكة عمودي بالكامل */
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* زرار checkout */
+  aside button {
+    font-size: 16px !important;
+  }
+
+}
